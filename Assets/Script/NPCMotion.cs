@@ -11,11 +11,13 @@ public class NPCMotion : MonoBehaviour
     {
         theAgent = GetComponent<NavMeshAgent>();
         theAgent.SetDestination(target.transform.position);
+        GetComponent<Animation>().Play("run");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(!GetComponent<Animation>().IsPlaying("run"))
+        GetComponent<Animation>().Play("run");
     }
 }

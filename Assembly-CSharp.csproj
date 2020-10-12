@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1095E53F-7F02-0617-B751-54D5BB06C4F4}</ProjectGuid>
+    <ProjectGuid>{75360638-5D3A-6AD1-3B45-5DD910558E59}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -73,11 +73,14 @@
     <Compile Include="Assets\Script\HumanMotion.cs" />
     <Compile Include="Assets\Script\NPCMotion.cs" />
     <Compile Include="Assets\Script\ShowInfo.cs" />
+    <Compile Include="Assets\Script\ShowPath.cs" />
     <Compile Include="Assets\Script\SliderScript.cs" />
+    <Compile Include="Assets\Script\TargetBehaivior.cs" />
     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Bed &amp; Bath Furniture Pack\Documentation.txt" />
+    <None Include="Assets\SpartanKing\animations.txt" />
     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
     <None Include="Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -645,34 +648,34 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/NirAlon/Downloads/TestProject1/Test1/GameDev_HW/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
